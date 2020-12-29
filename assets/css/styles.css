@@ -47,11 +47,15 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
 }
+/*-----------------------------------------------------------*/
 
+/* General style for all sections */
 section {
     padding: 60px;
 }
+/*-----------------------------------------------------------*/
 
+/* apply styles to hero */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -115,7 +119,9 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
+/*-----------------------------------------------------------*/
 
+/* apply styles to 'what we do' section */
 .section-title {
     font-size: 48px;
     color: #024e76;
@@ -134,7 +140,9 @@ section {
     margin: 0 auto;
     text-align: center;
 }
+/*-----------------------------------------------------------*/
 
+/* apply styles to 'what you do' section */
 .steps {
     background: #fce138;
 }
@@ -187,7 +195,9 @@ section {
     color: #39a6b2;
     font-size: 18px;
 }
+/*-----------------------------------------------------------*/
 
+/* apply styles to 'meet the trainers' section */
 .trainers {
     width: 100%;
     margin: 0 auto;
@@ -225,7 +235,9 @@ section {
 .trainer-bio p {
     font-size: 17px;
 }
+/*-----------------------------------------------------------*/
 
+/* apply styles to 'Our Service Plan' section */
 .services {
     background: #fce138;
 }
@@ -274,9 +286,9 @@ section {
     font-size: 1.5rem;
     font-weight: bold;
 }
+/*-----------------------------------------------------------*/
 
-
-
+/* apply styles to 'Reach Out' section */
 .contact {
     background: #024e76;
 }
@@ -340,7 +352,9 @@ section {
     padding: 15px 0;
     font-size: 16px;
 }
+/*-----------------------------------------------------------*/
 
+/* apply styles to 'Footer' section */
 footer {
     background: #fce138;
     width: 100%;
@@ -384,6 +398,7 @@ footer a {
 .flex-row {
     display: flex;
 }
+/*-----------------------------------------------------------*/
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
